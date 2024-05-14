@@ -4,7 +4,7 @@ public class TestJava {
 
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.println("Эта программа определяет является ли некоторое целое положительное число, вводимое в программу, степенью двойки.");
+        System.out.println("Эта программа определяет является ли число степенью двойки.");
         System.out.println("Введите число");
         int N = keyboard.nextInt();
         while(N % 2 == 0)
